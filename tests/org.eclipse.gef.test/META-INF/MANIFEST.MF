@@ -1,5 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
+Automatic-Module-Name: org.eclipse.rap.gef.test
 Bundle-Name: %Plugin.name
 Bundle-SymbolicName: org.eclipse.rap.gef.test
 Bundle-Version: 0.1.0.qualifier
@@ -9,8 +10,8 @@ Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.2.0,4.0.0)",
  org.junit,
  org.eclipse.rap.gef;bundle-version="0.1.0",
  org.eclipse.rap.draw2d;bundle-version="0.1.0",
- org.eclipse.rap.jface;bundle-version="2.1.1",
- org.eclipse.rap.ui.workbench;bundle-version="2.1.1",
- org.eclipse.rap.rwt.testfixture;bundle-version="[2.1.0,4.0.0)"
-Bundle-RequiredExecutionEnvironment: J2SE-1.4
+ org.eclipse.rap.jface;bundle-version="[4.0.0,5.0.0)",
+ org.eclipse.rap.ui.workbench;bundle-version="[4.0.0,5.0.0)",
+ org.eclipse.rap.rwt.testfixture;bundle-version="[4.0.0,5.0.0)"
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 
