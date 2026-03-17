@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+  <category-def name="rap.incubator.category"
+                label="Eclipse RAP Incubator Addons"/>
+
+  <bundle id="org.eclipse.rap.draw2d"
+          version="0.0.0">
+    <category name="rap.incubator.category"/>
+  </bundle>
+  <bundle id="org.eclipse.rap.draw2d.compatibility"
+          version="0.0.0">
+    <category name="rap.incubator.category"/>
+  </bundle>
+  <bundle id="org.eclipse.rap.gef"
+          version="0.0.0">
+    <category name="rap.incubator.category"/>
+  </bundle>
+  <bundle id="org.eclipse.rap.zest.core"
+          version="0.0.0">
+    <category name="rap.incubator.category"/>
+  </bundle>
+  <bundle id="org.eclipse.rap.zest.layouts"
+          version="0.0.0">
+    <category name="rap.incubator.category"/>
+  </bundle>
+</site>
